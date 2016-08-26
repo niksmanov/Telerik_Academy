@@ -1,0 +1,35 @@
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 0.7em;
+    font-family: Arial;
+}
+
+th {
+    background-color: #57BA06;
+    color: white;
+    font-weight: normal;
+    border-right: 1px solid #D3D2C9;
+    border-bottom: 1px solid #D3D2C9;
+    text-align: left;
+    padding: 5px 50px 5px 5px;
+}
+
+tr:nth-child(2n) {
+    background-color: #ECECD8;
+}
+
+tr:nth-last-child(1) {
+    border-bottom: 1px solid #D3D2C9;
+}
+
+td {
+    padding: 5px 50px 5px 5px;
+    font-weight: normal;
+    border-right: 1px solid #D3D2C9;
+    text-align: left;
+}

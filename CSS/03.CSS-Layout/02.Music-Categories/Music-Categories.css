@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+    font-size: 0.9em;
+}
+
+main {
+    background-color: lightgrey;
+    width: 500px;
+    height: 550px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 1.3em;
+    font-weight: normal;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+section {
+    background-color: white;
+    border: 1px solid grey;
+    margin-bottom: 50px;
+    width: 450px;
+    height: 120px;
+    margin-left: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+img.picture {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+img.buttons {
+    position: relative;
+    left: 300px;
+    bottom: 70px;
+}
+
+article {
+    position: relative;
+    bottom: 90px;
+    left: 180px;
+    width: 270px;
+}

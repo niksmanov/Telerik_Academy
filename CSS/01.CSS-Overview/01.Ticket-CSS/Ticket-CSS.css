@@ -1,0 +1,63 @@
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.table {
+    background-color: #595959;
+    font-family: Arial;
+    padding-top: 7px;
+}
+
+#ticket {
+    color: #B3B3B1;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.data {
+    color: #F0ECEA;
+    font-style: italic;
+    font-size: 0.7em;
+    padding-top: 10px;
+    vertical-align: top;
+    width: 95px;
+}
+
+.record {
+    color: #E3DCA7;
+    font-style: normal;
+    font-size: 0.7em;
+    padding-top: 10px;
+    width: 200px;
+}
+
+#support {
+    color: #EE172D;
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 1em;
+}
+
+#information {
+    color: #B3B3B1;
+    font-style: normal;
+}
+
+#info {
+    color: #B3B3B1;
+    font-style: normal;
+    padding-top: 10px;
+}
+
+#link {
+    font-size: 1em;
+    padding-top: 15px;
+}
+
+#status {
+    color: #C06822;
+    font-style: normal;
+    font-weight: bold;
+    padding-bottom: 5px;
+}

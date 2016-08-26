@@ -1,0 +1,127 @@
+body {
+    border: 1px solid grey;
+    width: 500px;
+    font-family: Arial;
+    border-radius: 5px;
+}
+
+#wrapper {
+    background-color: #D9E4F1;
+}
+
+#icons {
+    position: relative;
+    bottom: 60px;
+    left: 390px;
+}
+
+#calculator {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+h1 {
+    font-size: 1em;
+    font-weight: normal;
+    position: relative;
+    bottom: 25px;
+    left: 25px;
+}
+
+#InnerWrap {
+    border: 1px solid grey;
+    width: 476px;
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+}
+
+#screen {
+    border: 1px solid grey;
+    width: 438px;
+    height: 50px;
+    text-align: right;
+    font-size: 1.5em;
+    padding:  0px 10px 0px 0px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 10px;
+    border-radius: 5px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#E6F0FB), to(white));
+}
+
+#binary {
+    border: 1px solid grey;
+    width: 450px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #597C92;
+    text-align: center;
+    position: relative;
+    left: 10px;
+    border-radius: 5px;
+}
+
+#equal {
+    height: 85px;
+}
+
+#zero {
+    width: 85px;
+}
+
+button {
+    width: 39px;
+    height: 35px;
+    margin: 2px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+nav {
+    border: 1px solid grey;
+    position: relative;
+    bottom: 20px;
+    left: -1px;
+    height: 20px;
+    width: 476px;
+    background-color: #D5DCEE;
+    font-size: 14px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#D9DFF0), to(white));
+}
+
+nav li {
+    float: left;
+    margin: 0;
+    padding: 0px 10px 0px 5px;
+    list-style: none;
+}
+
+li::first-letter {
+    text-decoration: underline;
+}
+
+.radiobuttons {
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.words-table {
+    font-size: 14px;
+}
+
+#radio {
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#allbuttons {
+    height: 20px;
+    width: 50px;
+    position: relative;
+    left: 8px;
+}

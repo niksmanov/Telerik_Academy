@@ -1,0 +1,54 @@
+body {
+    margin-left: 10px;
+    margin-top: 0px;
+    background-color: #A9A9A9;
+}
+
+.main {
+    color: #FAFAD2;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.current {
+    background-color: #D3D3D3;
+}
+
+.title {
+    font-size: 1.5em;
+    color: #FAFAD2;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+footer {
+    font-size: 0.8em;
+}
+
+.ending {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
