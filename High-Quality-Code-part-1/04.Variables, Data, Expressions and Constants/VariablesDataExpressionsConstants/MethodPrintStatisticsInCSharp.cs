@@ -2,7 +2,7 @@
 {
     internal class MethodPrintStatisticsInCSharp
     {
-        public double FindMaxValue(double[] numbersArray, int numbersCount)
+        public static double FindMaxValue(double[] numbersArray, int numbersCount)
         {
             double maxValue = 0;
 
@@ -17,7 +17,7 @@
             return maxValue;
         }
 
-        public double FindMinValue(double[] numbersArray, int numbersCount)
+        public static double FindMinValue(double[] numbersArray, int numbersCount)
         {
             double minValue = 0;
 
@@ -32,7 +32,7 @@
             return minValue;
         }
 
-        public double AverageValues(double[] numbersArray, int numbersCount)
+        public static double AverageValues(double[] numbersArray, int numbersCount)
         {
             double sum = 0;
 
