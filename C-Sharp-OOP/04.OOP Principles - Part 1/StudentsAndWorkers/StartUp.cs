@@ -76,13 +76,6 @@ namespace StudentsAndWorkers
             {
                 Console.WriteLine("{0} {1}", human.FirstName, human.LastName);
             }
-
-
-
-
-
-
-
         }
     }
 }
