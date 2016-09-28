@@ -1,0 +1,20 @@
+﻿<#@ template debug="true" hostSpecific="true" #>
+<#@ output extension=".cs" #>
+<#
+#>
+namespace T4Template
+{
+	internal class T4Class
+	{
+		internal static void Main()
+		{
+		<#int top = 300;
+		for (int i = 0; i<=top; i++) 
+		{ #>
+	System.Console.WriteLine("The square of <#= i #> is <#= i*i #>");
+		<# } #>
+
+		}
+	}
+}
+ 

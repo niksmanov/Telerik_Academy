@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{086E75D6-FE9D-4096-AABD-213C768E4DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccounts", "BankAccounts\BankAccounts.csproj", "{86CA415F-C2E3-4EEF-8FE2-2CC25DA4CCAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Development Tools", "Development Tools", "{1A71971F-6169-4DE2-9838-DC34B9590FDD}"
+	ProjectSection(SolutionItems) = preProject
+		Development Tools\1.TortoiseGit.png = Development Tools\1.TortoiseGit.png
+		Development Tools\2.Before StyleCop.png = Development Tools\2.Before StyleCop.png
+		Development Tools\3.After StyleCop.png = Development Tools\3.After StyleCop.png
+		Development Tools\4.ConfuserEx.PNG = Development Tools\4.ConfuserEx.PNG
+		Development Tools\BankAccountsObfuscated.exe = Development Tools\BankAccountsObfuscated.exe
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T4Template", "T4Template\T4Template.csproj", "{FEA440EE-9465-4FC3-9995-936D265E13BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{086E75D6-FE9D-4096-AABD-213C768E4DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086E75D6-FE9D-4096-AABD-213C768E4DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086E75D6-FE9D-4096-AABD-213C768E4DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086E75D6-FE9D-4096-AABD-213C768E4DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86CA415F-C2E3-4EEF-8FE2-2CC25DA4CCAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CA415F-C2E3-4EEF-8FE2-2CC25DA4CCAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CA415F-C2E3-4EEF-8FE2-2CC25DA4CCAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CA415F-C2E3-4EEF-8FE2-2CC25DA4CCAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEA440EE-9465-4FC3-9995-936D265E13BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEA440EE-9465-4FC3-9995-936D265E13BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEA440EE-9465-4FC3-9995-936D265E13BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA440EE-9465-4FC3-9995-936D265E13BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
