@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="./XMLbasics/students.xslt"?>
+<students:student xmlns:students="http://test.name">
+  <students:student>
+    <students:name>Name</students:name>
+    <students:sex>Sex</students:sex>
+    <students:birthdate>Birth date</students:birthdate>
+    <students:phone>Phone</students:phone>
+    <students:email>Email</students:email>
+    <students:course>Course</students:course>
+    <students:specialty>Specialty</students:specialty>
+    <students:facultyNumber>Faculty number</students:facultyNumber>
+    <students:exams xmlns:exams="http://test.name">
+      <exams:exam>
+        <exams:name>Exam name</exams:name>
+        <exams:tutor>Tutor</exams:tutor>
+        <exams:score>Score</exams:score>
+      </exams:exam>
+    </students:exams>
+  </students:student>
+</students:student>

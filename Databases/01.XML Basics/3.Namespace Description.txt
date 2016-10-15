@@ -1,0 +1,7 @@
+What do namespaces represent in an XML document?
+
+XML Namespaces provide a method to avoid element name conflicts. The Namespaces in XML Recommendation defines the syntax for naming XML namespaces as well as the syntax for referring to something in an XML namespace. It doesn't address, however, the syntax for defining what's in the XML namespace. This was left to another specification, namely XML Schema. Each of these areas requires some explanation.
+
+What are they used for?
+
+In an XML document we use a namespace prefix to qualify the local names of both elements and attributes . A prefix is really just an abbreviation for the namespace identifier (URI), which is typically quite long. The prefix is first mapped to a namespace identifier through a namespace declaration
