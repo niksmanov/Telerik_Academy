@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums>
+  <album>
+    <name>Album 1</name>
+  </album>
+  <artist>
+    <name>Artist 1</name>
+  </artist>
+  <album>
+    <name>Album 2</name>
+  </album>
+  <artist>
+    <name>Artist 1</name>
+  </artist>
+  <album>
+    <name>Album 3</name>
+  </album>
+  <artist>
+    <name>Artist 1</name>
+  </artist>
+  <album>
+    <name>Album 1</name>
+  </album>
+  <artist>
+    <name>Artist 2</name>
+  </artist>
+  <album>
+    <name>Album 2</name>
+  </album>
+  <artist>
+    <name>Artist 2</name>
+  </artist>
+</albums>

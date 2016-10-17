@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<people>
+  <person>
+    <name>Ivan Ivanov</name>
+    <address>Address1</address>
+    <phone>8056782321</phone>
+  </person>
+  <person>
+    <name>Petar Petrov</name>
+    <address>Address2</address>
+    <phone>8765902612</phone>
+  </person>
+  <person>
+    <name>Gosho Goshov</name>
+    <address>Address3</address>
+    <phone>8329363725</phone>
+  </person>
+  <person>
+    <name>Stamat Stamatov</name>
+    <address>Address4</address>
+    <phone>4348390996</phone>
+  </person>
+</people>
