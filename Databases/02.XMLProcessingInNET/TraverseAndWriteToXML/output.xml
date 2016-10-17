@@ -1,1 +1,84 @@
-﻿<?xml version="1.0" encoding="utf-8"?><directories><directory><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\bin</name><directory><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\bin\Debug</name><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\bin\Debug\TraverseAndWriteToXML.exe</name></file><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\bin\Debug\TraverseAndWriteToXML.exe.config</name></file><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\bin\Debug\TraverseAndWriteToXML.pdb</name></file><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\bin\Debug\TraverseAndWriteToXML.vshost.exe</name></file><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\bin\Debug\TraverseAndWriteToXML.vshost.exe.config</name></file><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\bin\Debug\TraverseAndWriteToXML.vshost.exe.manifest</name></file></directory><directory><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\bin\Release</name></directory></directory><directory><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj</name><directory><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug</name><directory><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\TempPE</name></directory><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\09.TraverseAndWriteToXML.csproj.FileListAbsolute.txt</name></file><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\09.TraverseAndWriteToXML.csprojResolveAssemblyReference.cache</name></file><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache</name></file><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name></file><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name></file><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name></file><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\TraverseAndWriteToXML.csproj.FileListAbsolute.txt</name></file><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\TraverseAndWriteToXML.exe</name></file><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\TraverseAndWriteToXML.pdb</name></file></directory></directory><directory><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\Properties</name><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\Properties\AssemblyInfo.cs</name></file></directory><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\09.TraverseAndWriteToXML.csproj</name></file><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\App.config</name></file><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\output.xml</name></file><file><name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\TraverseAndWriteToXML.cs</name></file></directories>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<directories>
+  <directory>
+    <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\bin</name>
+    <directory>
+      <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\bin\Debug</name>
+      <file>
+        <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\bin\Debug\TraverseAndWriteToXML.exe</name>
+      </file>
+      <file>
+        <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\bin\Debug\TraverseAndWriteToXML.exe.config</name>
+      </file>
+      <file>
+        <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\bin\Debug\TraverseAndWriteToXML.pdb</name>
+      </file>
+      <file>
+        <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\bin\Debug\TraverseAndWriteToXML.vshost.exe</name>
+      </file>
+      <file>
+        <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\bin\Debug\TraverseAndWriteToXML.vshost.exe.config</name>
+      </file>
+      <file>
+        <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\bin\Debug\TraverseAndWriteToXML.vshost.exe.manifest</name>
+      </file>
+    </directory>
+    <directory>
+      <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\bin\Release</name>
+    </directory>
+  </directory>
+  <directory>
+    <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj</name>
+    <directory>
+      <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug</name>
+      <directory>
+        <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\TempPE</name>
+      </directory>
+      <file>
+        <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\09.TraverseAndWriteToXML.csproj.FileListAbsolute.txt</name>
+      </file>
+      <file>
+        <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\09.TraverseAndWriteToXML.csprojResolveAssemblyReference.cache</name>
+      </file>
+      <file>
+        <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache</name>
+      </file>
+      <file>
+        <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+      </file>
+      <file>
+        <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+      </file>
+      <file>
+        <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+      </file>
+      <file>
+        <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\TraverseAndWriteToXML.csproj.FileListAbsolute.txt</name>
+      </file>
+      <file>
+        <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\TraverseAndWriteToXML.exe</name>
+      </file>
+      <file>
+        <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\obj\Debug\TraverseAndWriteToXML.pdb</name>
+      </file>
+    </directory>
+  </directory>
+  <directory>
+    <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\Properties</name>
+    <file>
+      <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\Properties\AssemblyInfo.cs</name>
+    </file>
+  </directory>
+  <file>
+    <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\09.TraverseAndWriteToXML.csproj</name>
+  </file>
+  <file>
+    <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\App.config</name>
+  </file>
+  <file>
+    <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\output.xml</name>
+  </file>
+  <file>
+    <name>D:\Telerik\PROJECTS\Homeworks Databases\XMLProcessingInNET\TraverseAndWriteToXML\TraverseAndWriteToXML.cs</name>
+  </file>
+</directories>
