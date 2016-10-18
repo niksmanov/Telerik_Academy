@@ -10,7 +10,7 @@
 * Relational Database Management Systems (RDBMS) manage data stored in tables.
 
 **3. Define what is "table" in database terms.**
-Database tables consist of data, arranged in rows and columns. All rows have the same structure. Columns have name and type (number, string, date, image, or other).
+* Database tables consist of data, arranged in rows and columns. All rows have the same structure. Columns have name and type (number, string, date, image, or other).
 
 **4. Explain the difference between a primary and a foreign key.**
 * Primary key is a column of the table that uniquely identifies its rows (usually it is a number). Two records (rows) are different if and only if their primary keys are different. The primary key can be composed by several columns (composite primary key).
@@ -34,10 +34,10 @@ Database tables consist of data, arranged in rows and columns. All rows have the
 * Check constraint ensures that values in a certain column meet some predefined condition.
 
 **8. Point out the pros and cons of using indexes in a database.**
-Indices speed up searching of values in a certain column or group of columns usually implemented as B-trees. Indices can be built-in the table (clustered) or stored externally (non-clustered). Adding and deleting records in indexed tables is slower! Indices should be used for big tables only.
+* Indices speed up searching of values in a certain column or group of columns usually implemented as B-trees. Indices can be built-in the table (clustered) or stored externally (non-clustered). Adding and deleting records in indexed tables is slower! Indices should be used for big tables only.
 
 **9. What's the main purpose of the SQL language?**
-Structured Query Language (SQL) is a special-purpose programming language designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS).
+* Structured Query Language (SQL) is a special-purpose programming language designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS).
 
 **10. What are transactions used for?**
 * Transactions guarantee the consistency and the integrity of the database. Transactions are a sequence of database operations which are executed as a single unit: 
@@ -49,16 +49,16 @@ Structured Query Language (SQL) is a special-purpose programming language design
 * If either the withdrawal or the deposit fails the entire operation should be cancelled.
 
 **11. What is a NoSQL database?**
-NoSQL (non-relational) databases use document-based model (non-relational) , schema-free document storage. Still support CRUD operations (Create, Read, Update, Delete). Still support indexing and querying, still supports concurrency and transactions. They are highly optimized for append / retrieve. They gave great performance and scalability.
+* NoSQL (non-relational) databases use document-based model (non-relational) , schema-free document storage. Still support CRUD operations (Create, Read, Update, Delete). Still support indexing and querying, still supports concurrency and transactions. They are highly optimized for append / retrieve. They gave great performance and scalability.
 
 **12. Explain the classical non-relational data models.**
-Relational databases:
+* Relational databases:
 * Data stored as table rows 
 * Relationships between related rows 
 * Single entity spans multiple tables
 * RDBMS systems are very mature, rock solid 
 
-NoSQL databases:
+* NoSQL databases:
 * Data stored as documents
 * Single entity (document) is a single record
 * Documents do not have a fixed structure
