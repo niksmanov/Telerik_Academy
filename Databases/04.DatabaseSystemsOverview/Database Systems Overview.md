@@ -44,7 +44,7 @@
 * Either all of them execute successfully
 * Or none of them is executed at all
 
-*Example:
+**Example:**
 * A bank transfer from one account into another (withdrawal + deposit). 
 * If either the withdrawal or the deposit fails the entire operation should be cancelled.
 
