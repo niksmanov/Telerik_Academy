@@ -1,0 +1,17 @@
+1.1. What is SQL? 
+Structured Query Language (SQL) is a special-purpose programming language designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS).
+
+1.2. What is DML? 
+A data manipulation language (DML) is a family of syntax elements similar to a computer programming language used for selecting, inserting, deleting and updating data in a database. Performing read-only queries of data is sometimes also considered a component of DML.
+
+1.3. What is DDL? 
+A data definition language or data description language (DDL) is a syntax similar to a computer programming language for defining data structures, especially database schemas.
+
+1.4. Recite the most important SQL commands.
+SQL consists of:
+Data Manipulation Language (DML): SELECT, INSERT, UPDATE, DELETE
+Data Definition Language (DDL): CREATE, DROP, ALTER, GRANT, REVOKE
+
+
+2. What is Transact-SQL (T-SQL)?
+T-SQL(Transact SQL) is an extension to the standard SQL language. T-SQL is the standard language used in MS SQL Server. It supports if statements, loops, exceptions etc. T-SQL is used for writing stored procedures, functions, triggers, etc.
