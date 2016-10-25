@@ -1,0 +1,105 @@
+1.Write a stored procedure that selects the full names of all persons:
+CREATE PROC usp_SelectFullPersonName
+AS
+SELECT FirstName + ' ' + LastName AS [FullName]
+FROM Persons
+GO
+
+--USE World
+--EXEC usp_SelectFullPersonName
+
+2. Create a stored procedure that accepts a number as a parameter and returns all persons who have more money in their accounts than the supplied number:
+CREATE PROC usp_MoreMoneyThanExpected(@expectedMoney money = 0)
+AS
+SELECT p.FirstName + ' ' + p.LastName AS [FullName], a.Balance
+FROM Persons p, Accounts a
+WHERE p.ID = a.PersonID AND a.Balance > @expectedMoney
+GO
+
+--USE World
+--EXEC usp_MoreMoneyThanExpected 1500
+
+3. Create a function that accepts as parameters – sum, yearly interest rate and number of months:
+CREATE PROC usp_CalculateSum(@sum money, @interestRate float, @months int)
+AS
+BEGIN
+SELECT @sum * @interestRate * @months AS [Money]
+END
+GO
+
+--USE World
+--EXEC usp_CalculateSum 1000, 0.03, 12
+
+4. Create a stored procedure that uses the function from the previous example to give an interest to a person's account for one month:
+ALTER PROC usp_CalculateAccountInterest(@accountID int, @interestRate float)
+AS
+SELECT p.FirstName + ' ' + p.LastName AS [FullName], a.Balance * @interestRate AS [AccountInterest]
+FROM Accounts a, Persons p
+WHERE @accountID = a.ID AND p.ID = @accountID
+GO
+
+--USE World
+--EXEC usp_CalculateAccountInterest 1, 0.06
+
+5. Add two more stored procedures WithdrawMoney(AccountId, money) and DepositMoney(AccountId, money) that operate in transactions:
+CREATE PROC usp_WithdrawMoney(@accountID int, @withdrawMoney money)
+AS
+BEGIN TRANSACTION
+UPDATE Accounts
+SET Balance = (-@withdrawMoney) + (
+SELECT a.Balance
+FROM Accounts a
+WHERE @accountID = a.ID) 
+WHERE ID = @accountID
+COMMIT
+GO
+
+--USE World
+--EXEC usp_WithdrawMoney 1, 200
+
+CREATE PROC usp_DepositMoney(@accountID int, @depositMoney money)
+AS
+BEGIN TRANSACTION
+UPDATE Accounts
+SET Balance = (+@depositMoney) + (
+SELECT a.Balance
+FROM Accounts a
+WHERE @accountID = a.ID) 
+WHERE ID = @accountID
+COMMIT
+GO
+
+--USE World
+--EXEC usp_DepositMoney 1, 300
+
+6 Create another table – Logs(LogID, AccountID, OldSum, NewSum).Add a trigger to the Accounts table that enters a new entry into the Logs table every time the sum on an account changes:
+CREATE TRIGGER tr_BalanceUpdate ON Accounts AFTER UPDATE
+AS
+BEGIN
+DECLARE 
+@oldSum money, 
+@newSum money,
+@accountId int
+
+SET @oldSum = (
+SELECT Balance
+FROM deleted
+)
+
+SET @newSum = (
+SELECT Balance
+FROM inserted
+WHERE id = (
+SELECT id
+FROM deleted)
+)
+
+SET @accountId = (
+SELECT Id
+FROM inserted
+)
+
+INSERT INTO Logs 
+VALUES(@accountId, @oldSum, @newSum)
+END
+GO
