@@ -25,13 +25,6 @@ namespace TemplateMethod.Models
         {
             Console.WriteLine("The winner is white player!");
         }
-
-        public override void Play()
-        {
-            InitializeGame();
-            StartOfGame();
-            EndOfGame();
-            PrintWinner();
-        }
+             
     }
 }

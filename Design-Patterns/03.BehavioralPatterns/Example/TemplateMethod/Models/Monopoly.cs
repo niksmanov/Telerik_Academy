@@ -23,13 +23,6 @@ namespace TemplateMethod.Models
         {
             Console.WriteLine("The winner is second player!");
         }
-
-        public override void Play()
-        {
-            InitializeGame();
-            StartOfGame();
-            EndOfGame();
-            PrintWinner();
-        }
+              
     }
 }
